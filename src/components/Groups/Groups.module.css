@@ -1,0 +1,77 @@
+.container {
+    max-width: 930px;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.filter__item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.group {
+    width: 140px;
+    padding: 10px 19px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.group__avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.group__name {
+    margin: 5px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.group__status {
+    padding: 5px;
+    margin: 0 auto;
+    width: min-content;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.group__membres {
+    font-size: 14px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.group__friends_count {
+    padding: 5px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    margin-left: auto;
+    width: max-content;
+    cursor: pointer;
+}
+
+.group__friends_items {
+    font-size: 14px;
+    padding: 2px 0;
+    border-bottom: 1px solid black;
+}
